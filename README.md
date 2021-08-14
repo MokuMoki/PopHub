@@ -8,6 +8,10 @@ This simple script have few features compared to other shorter alternatives:
 * Ban-proof (rate limited to 800 per 30 seconds)
 * Use little system resources
 
+# How to do it on Android Chrome browser?
+You may run the script by connecting to a PC with Chrome and use the remote debugging feature:
+https://developer.chrome.com/docs/devtools/remote-debugging/
+
 # Known restrictions
 It is known that popcat.click can only accept 800 pops per 30 seconds, and you cannot request API again during the 30 seconds cooldown. 
 
@@ -21,3 +25,9 @@ You may clear the website cookies or use incognito to unflag yourself.
 Popcat will sometimes respond with an error "503 - Haven't found your country code yet (try again later)". Despite what the error describing, it is most likely not to do with detecting your country, but rather CloudFlare have flagged you as a bot, and the API call failed. Unfortunately, you might need to wait it out.
 
 AdBlocker is known to cause issue as well, simply disable them and see if it works.
+
+# Malaysia
+Go Malaysia go!
+
+![popcat](https://user-images.githubusercontent.com/14260598/129445411-15ce2b1c-5402-4ba4-9322-72512731fe8e.gif)
+
