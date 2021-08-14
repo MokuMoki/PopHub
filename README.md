@@ -1,6 +1,12 @@
 # popcat_bot
 popcat.click auto pop sender with feedback.
 
+# "Features"
+This simple script have few features compared to other shorter alternatives:
+* Tracks how many pops you sent
+* Notifies you if there's issue with sending pops
+* Ban-proof (rate limited to 800 per 30 seconds)
+
 # Known restrictions
 It is known that popcat.click can only accept 800 pops per 30 seconds, and you cannot request API again during the 30 seconds cooldown. 
 
