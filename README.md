@@ -2,14 +2,14 @@
 popcat.click auto pop sender with feedback.
 
 # "Features"
-This simple script have few features compared to other shorter alternatives:
-* Tracks how many pops you sent
-* Notifies you if there's issue with sending pops
-* Ban-proof (rate limited to 800 per 30 seconds)
+This simple script have few "features" compared to other shorter alternatives:
+* **Tracks** how many pops you sent
+* **Notifies** you if there's issue with sending pops
+* **Ban-proof** (rate limited to 800 per 30 seconds)
 * Use little system resources
 
 # How to do it on Android Chrome browser?
-You may run the script by connecting to a PC with Chrome and use the remote debugging feature:
+You may run the script by connecting to a PC with Chrome and use the **remote debugging** feature:
 https://developer.chrome.com/docs/devtools/remote-debugging/
 
 # Known restrictions
