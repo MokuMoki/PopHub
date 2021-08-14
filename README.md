@@ -6,7 +6,8 @@ This simple script have few "features" compared to other shorter alternatives:
 * **Tracks** how many pops you sent
 * **Notifies** you if there's issue with sending pops
 * **Ban-proof** (rate limited to 800 per 30 seconds)
-* Use little system resources
+* Shows which **country** you are contributing to
+* Uses little system resources
 
 ![Screenshot 2021-08-14 195741](https://user-images.githubusercontent.com/14260598/129445599-00568de9-1def-4540-9506-0957ae2c1ea4.png)
 
