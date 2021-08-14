@@ -6,6 +6,7 @@ It is known that popcat.click can only accept 800 pops per 30 seconds, and you c
 
 If the API realized that you have sent more than 800 pops every seconds repeatedly, you will be flagged as bot and the cat eyes will light up. 
 You may clear the website cookies or use incognito to unflag yourself.
+
 ![Screenshot 2021-08-14 184105](https://user-images.githubusercontent.com/14260598/129443727-7e95a17c-06b9-49e7-894b-2d2da5ff8a25.png)
 
 
