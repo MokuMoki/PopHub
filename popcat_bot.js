@@ -9,11 +9,12 @@ Additional info: https://github.com/MokuMoki/popcat_bot
 var vue = document.getElementById('app').__vue__;
 let total = 0, error = 0, token = '';
 const count = 800;
+const thirty_seconds = 30 * 1000;
 
 console.clear();
 console.log("%cYour bot have started.", "color: #ff77ff");
 
-setInterval(async () => {
+const callAPI = async () => {
     vue.interval = false;
     await vue.$recaptchaLoaded();
     const recaptchaResponseToken = await vue.$recaptcha('pop');
@@ -43,4 +44,7 @@ setInterval(async () => {
             }
             break;
     }
-}, 30000);
+}
+
+callAPI();
+setInterval(callAPI, thirty_seconds);
