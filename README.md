@@ -8,6 +8,7 @@ This simple script have few "features" compared to other shorter alternatives:
 * **Ban-proof** (rate limited to 800 per 30 seconds)
 * Shows which **country** you are contributing to
 * Uses little system resources
+* Works even if you got banned (yes)
 
 ![Screenshot 2021-08-14 195741](https://user-images.githubusercontent.com/14260598/129445599-00568de9-1def-4540-9506-0957ae2c1ea4.png)
 
