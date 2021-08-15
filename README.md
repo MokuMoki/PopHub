@@ -19,8 +19,12 @@ https://developer.chrome.com/docs/devtools/remote-debugging/
 # Known restrictions
 It is known that popcat.click can only accept 800 pops per 30 seconds, and you cannot request API again during the 30 seconds cooldown. 
 
-If the API realized that you have sent more than 800 pops every seconds repeatedly, you will be flagged as bot and the cat eyes will light up. 
-You may clear the website cookies or use incognito to unflag yourself.
+The website also have a function that checks if you clicked more than 800 times and it will track how many times you hit the threshold. You will need to hit the threshold 10 consecutive times to be marked as a bot. The counter will reset when you miss the threshold.
+
+![Screenshot 2021-08-15 141448](https://user-images.githubusercontent.com/14260598/129469081-6dbda7c2-c5cb-46b1-8c11-0dc1601ae84d.png)
+
+If the variable sequential_max_pops reaches 10 and above, you will be flagged as bot and the cat eyes will light up. 
+You may clear the website cookies to unflag yourself.
 
 Please don't try running this on same IP (even with different tab, browser, or devices), it won't work, only 1 request/30 seconds is accepted per IP.
 
