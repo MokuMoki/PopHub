@@ -1,7 +1,7 @@
 /* 
 1 - Open "popcat.click" website.
 2 - Open Console (Ctrl + Shift + I).
-3 - Copy from line 9 to 46, paste in Console and press Enter to run.
+3 - Copy from line 9 to 50, paste in Console and press Enter to run.
 
 Additional info: https://github.com/MokuMoki/popcat_bot
 */
