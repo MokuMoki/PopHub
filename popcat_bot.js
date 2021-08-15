@@ -6,7 +6,7 @@
 Additional info: https://github.com/MokuMoki/popcat_bot
 */
 
-var vue = document.getElementById('app').__vue__;
+let vue = document.getElementById('app').__vue__;
 let total = 0, error = 0, token = '';
 const count = 800;
 const thirty_seconds = 30 * 1000;
