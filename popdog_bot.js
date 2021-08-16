@@ -3,7 +3,7 @@
  * Copy and paste the following codes to browser console and press enter.
  ***********************************************************************************************************/
 const interval = 5_000;
-const clicksToSend = 200;
+const clicksToSend = 2000;
 
 setInterval(async () => {
     try {
