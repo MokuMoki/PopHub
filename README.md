@@ -1,5 +1,5 @@
 # PopHub
-Go high with pops
+Can't pop her cherry? Why not pop cat or pop dog?
 
 # PopCat bot/hack
 Our first PopAnimals script, kick started by social media trend in Taiwan and Malaysia.
