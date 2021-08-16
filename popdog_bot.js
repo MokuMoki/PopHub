@@ -7,7 +7,7 @@ const clicksToSend = 200;
 
 setInterval(async () => {
     try {
-        console.log('fetching...')
+        console.log(`Sending ${clicksToSend} clicks...`);
         const res = await fetch('/clicked/v2', {
             method: 'POST',
             headers: {
@@ -21,7 +21,7 @@ setInterval(async () => {
         });
         const data = await res.json();
         myClicks = data.clicks;
-        console.log(`Total clicks sended ${myClicks}.`)
+        console.log(`Total clicks sent ${myClicks}.`)
         prevClicks = myClicks;
         prevUploadedClicks = myClicks;
     }
