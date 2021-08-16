@@ -1,15 +1,15 @@
 # PopHub
 Go high with pops
 
-# PopCat bot
-## "Features"
+# PopCat bot/hack
+## Features
 This simple script have few "features" compared to other shorter alternatives:
 * **Tracks** how many pops you sent
 * **Notifies** you if there's issue with sending pops
 * **Ban-proof** (rate limited to 800 per 30 seconds)
 * Shows which **country** you are contributing to
 * Uses little system resources
-* Works even if you got banned (yes)
+* Works even if you got banned (yes, works even if the cat is shooting laser)
 
 ![Screenshot 2021-08-14 195741](https://user-images.githubusercontent.com/14260598/129445599-00568de9-1def-4540-9506-0957ae2c1ea4.png)
 
@@ -27,7 +27,7 @@ Please don't try running this on same IP (even with different tab, browser, or d
 
 ![Screenshot 2021-08-14 184105](https://user-images.githubusercontent.com/14260598/129443727-7e95a17c-06b9-49e7-894b-2d2da5ff8a25.png)
 
-# PopDog bot
+# PopDog bot/hack
 todo
 
 # FAQ
