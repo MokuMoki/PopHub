@@ -5,8 +5,10 @@
 
 const interval = 5_000;     //5 seconds per request
 const clicksToSend = 2000;  //2000 is the maximum amount of clicks can be incremented per request, no point going higher
+
 console.clear();
 console.log(`%cBot will send ${clicksToSend} clicks every 5 seconds.`, "color: #ff77ff");
+console.log(`%cYour UUID is ${uuid}.`, "color: #ff77ff");
 
 setInterval(async () => {
     try {
@@ -23,7 +25,7 @@ setInterval(async () => {
         });
         const data = await res.json();
         myClicks = data.clicks;
-        console.log(`%cTotal clicks accumulated: ${myClicks}. Using UUID: ${uuid}`, "color: #6ea561")
+        console.log(`%cTotal clicks accumulated: ${myClicks}.`, "color: #6ea561")
         prevClicks = myClicks;
         prevUploadedClicks = myClicks;
     }
