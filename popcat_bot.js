@@ -33,14 +33,14 @@ const callAPI = async () => {
                 console.log(`%cSuccessfully sent ${count} pops！You sent ${total} pops in total！（Country：${data.Location.Name}）`, "color: #6ea561");
                 break;
             case 429:
-                console.log("%cRespond too frequent, please wait at least 30 seconds.", "color: #fbb40c");
+                console.log("%cServer rejected the pops. Please avoid running multiple instances of popcat if you are doing it.", "color: #fbb40c");
                 break;
             case 503:
                 error++;
                 if (error < 10) {
                     console.log("%cThere is an issue. Retrying...", "color: #fbb40c");
                 } else {
-                    console.log("%cYour IP/device is blacklisted by CloudFlare, please wait for 12 hours.", "color: #de2910");
+                    console.log("%cYour IP/device might have been blacklisted by CloudFlare, please wait for 12 hours.", "color: #de2910");
                 }
                 break;
         }
