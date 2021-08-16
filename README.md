@@ -1,17 +1,19 @@
 # PopHub
-Go high with pops
+Can't pop her cherry? Why not pop cat or pop dog?
 
 # PopCat bot/hack
+Our first PopAnimals script, kick started by social media trend in Taiwan and Malaysia.
+
 ## Features
 This simple script have few "features" compared to other shorter alternatives:
 * **Tracks** how many pops you sent
 * **Notifies** you if there's issue with sending pops
-* **Ban-proof** (rate limited to 800 per 30 seconds)
+* **Ban-proof** (rate limited to 800 every 30 seconds)
 * Shows which **country** you are contributing to
-* Uses little system resources
-* Works even if you got banned (yes, works even if the cat is shooting laser)
+* **Light** on system resources
+* Works even if you got marked as bot (yes, works even if the cat is shooting laser)
 
-![Screenshot 2021-08-14 195741](https://user-images.githubusercontent.com/14260598/129445599-00568de9-1def-4540-9506-0957ae2c1ea4.png)
+![Screenshot 2021-08-17 022153](https://user-images.githubusercontent.com/14260598/129611627-5a98da4e-c049-4020-9862-9911785beb78.png)
 
 ## Known restrictions
 It is known that popcat.click can only accept 800 pops per 30 seconds, and you cannot request API again during the 30 seconds cooldown. 
@@ -20,15 +22,24 @@ The website also have a function that checks if you clicked more than 800 times 
 
 ![Screenshot 2021-08-15 141448](https://user-images.githubusercontent.com/14260598/129469081-6dbda7c2-c5cb-46b1-8c11-0dc1601ae84d.png)
 
-If the variable sequential_max_pops reaches 10 and above, you will be flagged as bot and the cat eyes will light up. 
-You may clear the website cookies to unflag yourself.
+If the variable `sequential_max_pops` reaches 10, you will be flagged as bot and the cat eyes will light up. 
+You may **clear the website cookies** to unflag yourself.
 
-Please don't try running this on same IP (even with different tab, browser, or devices), it won't work, only 1 request/30 seconds is accepted per IP.
+Please don't try running this on same IP (even with different tab, browser, or devices), it won't work, only 1 request every 30 seconds is accepted for each IP.
 
 ![Screenshot 2021-08-14 184105](https://user-images.githubusercontent.com/14260598/129443727-7e95a17c-06b9-49e7-894b-2d2da5ff8a25.png)
 
 # PopDog bot/hack
-todo
+Second PopAnimals script. Still optimizing.
+
+## Features
+Our PopDog script have following features:
+* **Optimized** for highest efficiency per UUID (approx 2000 clicks per 3.8 seconds)
+* **Notified** and tracks amount of clicks sent
+* **Light** on system resources
+* Silent
+
+![Screenshot 2021-08-17 022301](https://user-images.githubusercontent.com/14260598/129612530-ff081088-09f1-4ca4-97a4-a6cb1f341e73.png)
 
 # FAQ
 
