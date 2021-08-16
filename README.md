@@ -1,7 +1,7 @@
 # PopHub
 Go high with pops
 
-# PopCat bot
+# PopCat bot/hack
 ## "Features"
 This simple script have few "features" compared to other shorter alternatives:
 * **Tracks** how many pops you sent
@@ -27,7 +27,7 @@ Please don't try running this on same IP (even with different tab, browser, or d
 
 ![Screenshot 2021-08-14 184105](https://user-images.githubusercontent.com/14260598/129443727-7e95a17c-06b9-49e7-894b-2d2da5ff8a25.png)
 
-# PopDog bot
+# PopDog bot/hack
 todo
 
 # FAQ
