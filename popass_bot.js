@@ -3,7 +3,7 @@
 let total = 0;
 let token = '';
 const count = 1000;   //maximum is 1000 pops per request
-const timer = 1 * 1000;   //one request per second, you may try to optimize this, too fast will get you rate limited.
+const timer = 1 * 1000;   //one request per second, you may try to optimize this, too fast will get you rate limited. 600 is lowest without getting timeout
 
 console.clear();
 console.log("%cYour bot have started.", "color: #ff77ff");
