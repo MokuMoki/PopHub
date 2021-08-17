@@ -1,6 +1,7 @@
 /* IMPORTANT: YOU NEED TO OCCASIONALLY KEEP THE WEBSITE FOCUSED TO ALLOW THE SCRIPT RUN CONTINUOUSLY */
 
 let total = 0;
+let token = '';
 const count = 1000;   //maximum is 1000 pops per request
 const timer = 1 * 1000;   //one request per second, you may try to optimize this, too fast will get you rate limited.
 
