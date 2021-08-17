@@ -4,6 +4,9 @@ Can't pop her cherry? Why not pop cat or pop dog?
 # PopCat bot/hack
 Our first PopAnimals script, kick started by social media trend in Taiwan and Malaysia.
 
+* Website: [popcat.click](https://popcat.click/)
+* Script: [popcat_bot.js](/popcat_bot.js)
+
 ## Features
 This simple script have few "features" compared to other shorter alternatives:
 * **Tracks** how many pops you sent
@@ -32,6 +35,9 @@ Please don't try running this on same IP (even with different tab, browser, or d
 # PopDog bot/hack
 Second PopAnimals script. Still optimizing.
 
+* Website: [popdog.click](https://popdog.click/)
+* Script: [popdog_bot.js](/popdog_bot.js)
+
 ## Features
 Our PopDog script have following features:
 * **Optimized** for highest efficiency per UUID (approx 2000 clicks per 3.8 seconds)
@@ -40,6 +46,15 @@ Our PopDog script have following features:
 * Silent
 
 ![Screenshot 2021-08-17 022301](https://user-images.githubusercontent.com/14260598/129612530-ff081088-09f1-4ca4-97a4-a6cb1f341e73.png)
+
+# PopAss bot/hack
+Third PopAnimals (PopHuman?) script. Still optimizing.
+
+* Website: [popass.click](https://popass.click/)
+* Script: [popass_bot.js](/popass_bot.js)
+
+## Features
+todo
 
 # FAQ
 
