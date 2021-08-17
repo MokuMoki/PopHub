@@ -58,6 +58,7 @@ Our PopAss script have following features:
 * **Optimized** for highest efficiency per IP (approx 1000 clicks per 0.6 seconds)
 * **Notifies** and tracks amount of clicks sent
 * Considerably **less resource intensive** compared to using keyDown event
+* Works even if you got marked as bot
 
 ![Screenshot 2021-08-17 191113](https://user-images.githubusercontent.com/14260598/129716707-755534d7-807e-4e6a-bf40-b651c2438137.png)
 
