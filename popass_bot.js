@@ -1,9 +1,11 @@
-/* IMPORTANT: YOU NEED TO OCCASIONALLY KEEP THE WEBSITE FOCUSED TO ALLOW THE SCRIPT RUN CONTINUOUSLY */
+/************************************************************************************************************
+    IMPORTANT: YOU NEED TO KEEP THE WEBSITE FOCUSED EVERY 5 MINUTES TO ALLOW THE SCRIPT RUN CONTINUOUSLY 
+    https://developer.chrome.com/blog/timer-throttling-in-chrome-88/
+ ***********************************************************************************************************/
 
 let total = 0;
-let token = '';
-const count = 1000;   //maximum is 1000 pops per request
-const timer = 1 * 1000;   //one request per second, you may try to optimize this, too fast will get you rate limited. 600 is lowest without getting timeout
+const count = 1000;    //1000 is the maximum amount of clicks can be incremented per request, no point going higher
+const timer = 1_000;   //you may try to optimize this, too fast will get you rate limited. 600 is lowest without getting timeout
 
 console.clear();
 console.log("%cYour bot have started.", "color: #ff77ff");
