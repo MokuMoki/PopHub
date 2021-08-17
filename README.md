@@ -41,7 +41,7 @@ Second PopAnimals script. Still optimizing.
 ## Features
 Our PopDog script have following features:
 * **Optimized** for highest efficiency per UUID (approx 2000 clicks per 3.8 seconds)
-* **Notified** and tracks amount of clicks sent
+* **Notifies** and tracks amount of clicks sent
 * **Light** on system resources
 * Silent
 
@@ -54,7 +54,12 @@ Third PopAnimals (PopHuman?) script. Still optimizing.
 * Script: [popass_bot.js](/popass_bot.js)
 
 ## Features
-todo
+Our PopAss script have following features:
+* **Optimized** for highest efficiency per IP (approx 1000 clicks per 0.6 seconds)
+* **Notifies** and tracks amount of clicks sent
+* Considerably **less resource intensive** compared to using keyDown event
+
+![Screenshot 2021-08-17 191113](https://user-images.githubusercontent.com/14260598/129716707-755534d7-807e-4e6a-bf40-b651c2438137.png)
 
 # FAQ
 
