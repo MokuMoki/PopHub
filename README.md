@@ -63,14 +63,16 @@ Our PopAss script have following features:
 ![Screenshot 2021-08-17 191113](https://user-images.githubusercontent.com/14260598/129716707-755534d7-807e-4e6a-bf40-b651c2438137.png)
 
 # PopPig bot/hack
-Most efficient hack for poppig.click.
+~~Most efficient hack for poppig.click.~~ Coming soon.
 
 * Website: [poppig.click](https://poppig.click/)
-* Script: [poppig_bot.js](/poppig_bot.js)
+* Script: ~~[poppig_bot.js](/poppig_bot.js)~~
 
 ## Feature
-Our PopPig script has one feature:
-* **Simple** (just 1 line of code)
+Our PopPig script ~~has one feature~~ have few features:
+* ~~**Simple** (just 1 line of code)~~
+* Effective (800 clicks per request)
+* **Configurable** (scale your attack according to system ability)
 
 # FAQ
 
