@@ -10,9 +10,10 @@ const timer = 1_000;   //you may try to optimize this, too fast will get you rat
 console.clear();
 console.log("%cYour bot have started.", "color: #ff77ff");
 
+await document.getElementById("app").__vue_app__.config.globalProperties.$recaptchaLoaded;
+const recaptchaResponseToken = await document.getElementById("app").__vue_app__.config.globalProperties.$recaptcha('pop');
+
 const callAPI = async () => {
-    await document.getElementById("app").__vue_app__.config.globalProperties.$recaptchaLoaded;
-    const recaptchaResponseToken = await document.getElementById("app").__vue_app__.config.globalProperties.$recaptcha('pop');
     let url = `https://api.popass.click/api/stats?count=${count}&captcha_token=${recaptchaResponseToken}`;
     const res = await fetch(url, {
         method: "POST",
