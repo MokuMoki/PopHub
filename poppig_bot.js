@@ -3,4 +3,4 @@
   Please avoid clicking on the pig while script is running to avoid clicks rejected by server
 */
 
-setInterval(function(){ clicked = 800; }, 5000);
+setInterval(function(){ clicked2 = 800; }, 5000);
