@@ -1,6 +1,12 @@
-/*
-  Simple 800 clicks/10 second bot for poppig.click
-  Please avoid clicking on the pig while script is running to avoid clicks rejected by server
-*/
+/******************************************************************************************
+* INSTRUCTIONS:
+* 1 - Open "poppig.click" website.
+* 2 - Open Console (Ctrl + Shift + I).
+* 3 - Reload the website (F5).
+* 4 - Copy line 12, paste in Console and press Enter to run.
+* 
+* Additional info: https://github.com/MokuMoki/PopHub#poppig-bothack
+ *******************************************************************************************/
 
-//setInterval(function(){ clicked2 = 800; }, 5000);   developer changed the code, fixing the hack
+//setInterval(function(){ clicked2 = 800; }, 5000);   dev changed the code, use the below script as temporary solution (need to focus on the page)
+setInterval(() => document.dispatchEvent(new KeyboardEvent('keydown')), 35);
