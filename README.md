@@ -33,7 +33,7 @@ Please don't try running this on same IP (even with different tab, browser, or d
 ![Screenshot 2021-08-14 184105](https://user-images.githubusercontent.com/14260598/129443727-7e95a17c-06b9-49e7-894b-2d2da5ff8a25.png)
 
 # PopDog bot/hack
-Second PopAnimals script. Still optimizing.
+Second PopAnimals script.
 
 * Website: [popdog.click](https://popdog.click/)
 * Script: [popdog_bot.js](/popdog_bot.js)
@@ -48,7 +48,7 @@ Our PopDog script have following features:
 ![Screenshot 2021-08-17 022301](https://user-images.githubusercontent.com/14260598/129612530-ff081088-09f1-4ca4-97a4-a6cb1f341e73.png)
 
 # PopAss bot/hack
-Third PopAnimals (PopHuman?) script. Still optimizing.
+Third PopAnimals (PopHuman?) script.
 
 * Website: [popass.click](https://popass.click/)
 * Script: [popass_bot.js](/popass_bot.js)
@@ -63,16 +63,19 @@ Our PopAss script have following features:
 ![Screenshot 2021-08-17 191113](https://user-images.githubusercontent.com/14260598/129716707-755534d7-807e-4e6a-bf40-b651c2438137.png)
 
 # PopPig bot/hack
-~~Most efficient hack for poppig.click.~~ Coming soon.
+Most ~~efficient~~ powerful hack for poppig.click.
 
 * Website: [poppig.click](https://poppig.click/)
-* Script: ~~[poppig_bot.js](/poppig_bot.js)~~
+* Script: ~~[poppig_bot.js](/poppig_bot.js)~~ Coming soon.
 
 ## Feature
 Our PopPig script ~~has one feature~~ have few features:
 * ~~**Simple** (just 1 line of code)~~
-* Effective (800 clicks per request)
-* **Configurable** (scale your attack according to system ability)
+* **High efficiency** (800 clicks per request)
+* Light on system resources (on lower values)
+* **Scalable** (scale your attack according to system ability)
+
+![Screenshot 2021-08-19 024232](https://user-images.githubusercontent.com/14260598/129954276-b36bda37-4507-4969-9321-6bb46ce442ca.png)
 
 # FAQ
 
