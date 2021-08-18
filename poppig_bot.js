@@ -10,3 +10,5 @@
 
 //setInterval(function(){ clicked2 = 800; }, 5000);   dev changed the code, use the below script as temporary solution (need to focus on the page)
 setInterval(() => document.dispatchEvent(new KeyboardEvent('keydown')), 35);
+
+//Better hack is coming soon :)
