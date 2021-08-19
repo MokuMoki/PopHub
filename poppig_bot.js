@@ -3,7 +3,7 @@
 * 1 - Open "poppig.click" website.
 * 2 - Open Console (Ctrl + Shift + I).
 * 3 - Reload the website (F5).
-* 4 - Copy from line 11 to 54, paste in Console and press Enter to run.
+* 4 - Copy from line 11 to 56, paste in Console and press Enter to run.
 * 
 * Additional info: https://github.com/MokuMoki/PopHub#poppig-bothack
  *******************************************************************************************/
@@ -43,12 +43,14 @@ function displayStatus() {
     console.log(`%cAdministered: ${loop}, %cSuccess: ${ok} (${ok * 800} clicks), %cRejected: ${err}`, "color: aqua", "color: lime;", "color: orange;");
 }
 
+if (loopAmount > 1300) { throw `Your loopAmount is too high (${loopAmount}), please reload the page and run the script with lower loopAmount value.` }
+
 for (let i = 0; i < loopAmount; i++) {
     fetchTokens();          //fetch the first batch of tokens
 }
 
 console.clear();
 console.warn("To save resources, please disable network recording by going to Network (top row, next to Console) and click on the red button (first icon) to stop recording.");
-if (loopAmount > 250) { console.warn(`You have set a high loopAmount (${loopAmount}), which will cause the system to lag when bot is running. Consider using a lower value if you experiencing lag.`) }
+if (loopAmount > 250) { console.warn(`You have set a high loopAmount (${loopAmount}), which will cause the system to lag when bot is running. Consider using a lower value if you experiencing lag.`)}
 
 setInterval(() => { displayStatus() }, 3000);
