@@ -1,5 +1,5 @@
 # PopHub
-Can't pop her cherry? Why not pop cat or pop dog?
+Public repo for PopAnimals JavaScript hacks.
 
 # PopCat bot/hack
 Our first PopAnimals script, kick started by social media trend in Taiwan and Malaysia.
@@ -76,6 +76,13 @@ Our PopPig script ~~has one feature~~ have few features:
 * **Scalable** (scale your attack according to system ability)
 
 ![Screenshot 2021-08-19 024232](https://user-images.githubusercontent.com/14260598/129954276-b36bda37-4507-4969-9321-6bb46ce442ca.png)
+
+# Other PopAnimals
+
+| Website | Link | Bot script | Remarks |
+|---|---|---|---|
+| PopKing | [popking.click](https://popking.click/) | N/A | A click game written to inform public about some of the controversies about the King of Thailand. <br>Click on "Close POPKING" will present you a quiz. The correct answers for the quiz are: False, True, True, True, False, True, False, True, False, True. |
+| PopDin | [popdin.politician.world](https://popdin.politician.world/) | N/A | A simple click game designed to mock Muhyiddin Yassin, Malaysia's 8th Prime Minister. |
 
 # FAQ
 
