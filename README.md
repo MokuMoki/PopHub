@@ -81,6 +81,7 @@ Our PopPig script have few features:
 |---|---|---|---|
 | PopKing | [popking.click](https://popking.click/) | N/A | A click game written to inform public about some of the controversies about the King of Thailand. <br>Click on "Close POPKING" will present you a quiz. The correct answers for the quiz are: False, True, True, True, False, True, False, True, False, True. |
 | PopDin | [popdin.politician.world](https://popdin.politician.world/) | [PopDin_hack.js](https://gist.github.com/MokuMoki/) (Private) | A simple click game designed to mock Muhyiddin Yassin, Malaysia's 8th Prime Minister. <br>Hack courtesy of [NRockhouse](https://github.com/NRockhouse). 🙏|
+| Popyut | [prayut.click](https://prayut.click/) | N/A | Similar to PopDin, this PopCat spin off is created to mock Thailand Prime Minister, Prayut Chan-o-cha. |
 
 # FAQ
 
