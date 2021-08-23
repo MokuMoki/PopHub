@@ -1,5 +1,5 @@
 # PopHub
-Public repo for PopAnimals JavaScript hacks. Constantly updated by [MokuMoki](https://github.com/MokuMoki).
+Public repo for PopAnimals JavaScript hacks. Periodically updated by [MokuMoki](https://github.com/MokuMoki).
 
 # PopCat bot/hack
 Our first PopAnimals script, kick started by social media trend in Taiwan and Malaysia.
@@ -81,9 +81,10 @@ Our PopPig script have few features:
 |---|---|---|---|
 | PopKing | [popking.click](https://popking.click/) | N/A | A click game written to inform public about some of the controversies about the King of Thailand. <br>Click on "Close POPKING" will present you a quiz. The correct answers for the quiz are: False, True, True, True, False, True, False, True, False, True. |
 | PopDin | [popdin.politician.world](https://popdin.politician.world/) | [PopDin_hack.js](https://gist.github.com/MokuMoki/) (Private) | A simple click game designed to mock Muhyiddin Yassin, Malaysia's 8th Prime Minister. <br>Hack courtesy of [NRockhouse](https://github.com/NRockhouse). 🙏|
+| PopBri | [popbri.politician.world](https://popbri.politician.world/) | N/A | A simple click game designed to mock Ismail Sabri Yaakob, Malaysia's 9th Prime Minister. |
 | Popyut | [prayut.click](https://prayut.click/) | N/A | Similar to PopDin, this PopCat spin off is created to mock Thailand Prime Minister, Prayut Chan-o-cha. |
 | PopXi | [popxi.click](https://popxi.click/) | N/A | PopCat spinoff made by [Taiwanese meme page](https://www.instagram.com/_taiwanmeme_/) that allow you to pop the greatest supreme leader in the world. |
-| PopRick | [poprick.click](https://poprick.click) | N/A | Pop Rick Ashley and get yourself rickrolled in 2021. |
+| PopRick | [poprick.click](https://poprick.click) | [poprick_bot.js](/poprick_bot.js) | Pop Rick Ashley and get yourself rickrolled in 2021. |
 
 # FAQ
 
