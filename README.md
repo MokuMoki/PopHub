@@ -76,6 +76,7 @@ Our PopPig script have few features:
 * **Scalable** (scale your attack according to system ability)
 
 # Other PopAnimals/PopHumans
+Warning: Some of these website might be controversial to your political views. 
 
 | Website | Link | Bot script | Remarks |
 |---|---|---|---|
