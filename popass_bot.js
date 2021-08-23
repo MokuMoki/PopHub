@@ -13,7 +13,7 @@ console.log("%cYour bot have started.", "color: #ff77ff");
 const callAPI = async () => {
     await document.getElementById("app").__vue_app__.config.globalProperties.$recaptchaLoaded;
     const recaptchaResponseToken = await document.getElementById("app").__vue_app__.config.globalProperties.$recaptcha('pop');
-    let url = `https://api.popass.click/api/stats?count=${count}&captcha_token=${recaptchaResponseToken}`;
+    let url = `https://api.popass.click/stats?count=${count}&captcha_token=${recaptchaResponseToken}`;
     const res = await fetch(url, {
         method: "POST",
         mode: "cors",

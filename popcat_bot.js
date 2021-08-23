@@ -1,15 +1,15 @@
-/* 
-INSTRUCTIONS:
-1 - Open "popcat.click" website.
-2 - Open Console (Ctrl + Shift + I).
-3 - Reload the website (F5).
-4 - Copy from line 14 to 54, paste in Console and press Enter to run.
-
-IT IS NORMAL TO SEE THE POP COUNTER NOT INCREASING, THIS SCRIPT BYPASSED
-THE NEED TO TAP BY LYING TO THE SERVER THAT YOU HAVE TAPPED.
-
-Additional info: https://github.com/MokuMoki/popcat_bot
-*/
+/******************************************************************************************
+* INSTRUCTIONS:
+* 1 - Open "popcat.click" website.
+* 2 - Open Console (Ctrl + Shift + I).
+* 3 - Reload the website (F5).
+* 4 - Copy from line 14 to 54, paste in Console and press Enter to run.
+*
+* IT IS NORMAL TO SEE THE POP COUNTER NOT INCREASING, THIS SCRIPT BYPASSED
+* THE NEED TO TAP BY LYING TO THE SERVER THAT YOU HAVE TAPPED.
+* 
+* Additional info: https://github.com/MokuMoki/PopHub#popcat-bothack
+ *******************************************************************************************/
 
 let vue = document.getElementById('app').__vue__;
 let total = 0, error = 0, token = '';

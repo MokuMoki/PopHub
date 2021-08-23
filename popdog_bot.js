@@ -1,7 +1,12 @@
-/************************************************************************************************************
- * An experimental autoclicker bot for popdog.clicks
- * Copy and paste the following codes to browser console and press enter.
- ***********************************************************************************************************/
+/******************************************************************************************
+* INSTRUCTIONS:
+* 1 - Open "poppig.click" website.
+* 2 - Open Console (Ctrl + Shift + I).
+* 3 - Reload the website (F5).
+* 4 - Copy from line 11 to 45, paste in Console and press Enter to run.
+* 
+* Additional info: https://github.com/MokuMoki/PopHub#popdog-bothack
+ *******************************************************************************************/
 
 const interval = 3_800;     //3.8 seconds per request
 const clicksToSend = 2000;  //2000 is the maximum amount of clicks can be incremented per request, no point going higher
