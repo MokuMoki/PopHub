@@ -10,7 +10,7 @@
 * 
 * Additional info: https://github.com/MokuMoki/PopHub#popcat-bothack
  *******************************************************************************************/
-
+let regionNames = new Intl.DisplayNames(['en'], {type: 'region'});
 let vue = document.getElementById('app').__vue__;
 let total = 0, error = 0, token = '';
 const count = 800;
@@ -34,7 +34,7 @@ const callAPI = async () => {
             error = 0;
             const data = await res.json();
             token = data.Token ? data.Token : token;
-            console.log(`%cSuccessfully sent ${count} pops！You sent ${total} pops in total！（Country：${data.Location.Name}）`, "color: #6ea561");
+            console.log(`%cSuccessfully sent ${count} pops！You sent ${total} pops in total！（Country：${regionNames.of(data.Location.Code)}）`, "color: #6ea561");
             break;
         case 429:
             console.log("%cServer rejected the pops. Please avoid running multiple instances of popcat if you are doing it.", "color: #fbb40c");
